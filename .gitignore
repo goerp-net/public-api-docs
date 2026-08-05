@@ -1,4 +1,6 @@
-# Nuxt dev/build outputs
+# Generated search indexes (rebuilt on each build)
+public/search-index.*.json
+
 .output
 .data
 .nuxt

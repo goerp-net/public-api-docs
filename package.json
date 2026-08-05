@@ -4,10 +4,8 @@
   "type": "module",
   "scripts": {
     "build": "nuxt build",
-    "postbuild": "pagefind --site .output/public",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
-    "postgenerate": "pagefind --site .output/public",
     "preview": "nuxt preview"
   },
   "dependencies": {

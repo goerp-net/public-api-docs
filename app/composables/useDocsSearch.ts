@@ -4,52 +4,35 @@ type SearchResult = {
   description?: string
 }
 
-type PagefindModule = {
-  init: () => Promise<void>
-  search: (query: string) => Promise<{
-    results: Array<{
-      data: () => Promise<{
-        url: string
-        excerpt?: string
-        meta?: { title?: string, description?: string }
-      }>
-    }>
-  }>
+type SearchIndexEntry = SearchResult & {
+  body: string
 }
 
-let pagefindModule: PagefindModule | null | undefined
+const indexCache: Partial<Record<string, SearchIndexEntry[]>> = {}
 
-async function getPagefind() {
-  if (!import.meta.client) {
-    return null
-  }
-
-  if (pagefindModule !== undefined) {
-    return pagefindModule
+async function getStaticIndex(locale: string) {
+  if (indexCache[locale]) {
+    return indexCache[locale]!
   }
 
   try {
-    const module = await import(/* @vite-ignore */ '/pagefind/pagefind.js') as PagefindModule
-    await module.init()
-    pagefindModule = module
-    return module
+    indexCache[locale] = await $fetch<SearchIndexEntry[]>(`/search-index.${locale}.json`)
+    return indexCache[locale]!
   } catch {
-    pagefindModule = null
     return null
   }
 }
 
-function toSearchResult(
-  item: { url: string, excerpt?: string, meta?: { title?: string, description?: string } },
-  locale: string,
-): SearchResult {
-  const path = item.url.replace(`/${locale}`, '') || '/getting-started'
+function searchStaticIndex(index: SearchIndexEntry[], query: string): SearchResult[] {
+  const q = query.toLowerCase()
 
-  return {
-    title: item.meta?.title || path,
-    path,
-    description: item.meta?.description || item.excerpt,
-  }
+  return index
+    .filter((entry) => {
+      const haystack = `${entry.title} ${entry.description || ''} ${entry.path} ${entry.body}`.toLowerCase()
+      return haystack.includes(q)
+    })
+    .slice(0, 12)
+    .map(({ title, path, description }) => ({ title, path, description }))
 }
 
 export function useDocsSearch() {
@@ -59,15 +42,9 @@ export function useDocsSearch() {
       return []
     }
 
-    const pagefind = await getPagefind()
-    if (pagefind) {
-      const response = await pagefind.search(q)
-      const items = await Promise.all(response.results.slice(0, 24).map(result => result.data()))
-
-      return items
-        .filter(item => item.url.includes(`/${locale}/`))
-        .slice(0, 12)
-        .map(item => toSearchResult(item, locale))
+    const staticIndex = await getStaticIndex(locale)
+    if (staticIndex) {
+      return searchStaticIndex(staticIndex, q)
     }
 
     return $fetch<SearchResult[]>('/api/search', {
