@@ -13,9 +13,9 @@ export default defineNuxtConfig({
 
   app: {
     head: {
-      title: 'Daqeeq API Documentation',
+      title: 'Daqiq API Documentation',
       meta: [
-        { name: 'description', content: 'Public API documentation for Daqeeq ERP integrations.' },
+        { name: 'description', content: 'Public API documentation for Daqiq ERP integrations.' },
       ],
       link: [
         { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' },

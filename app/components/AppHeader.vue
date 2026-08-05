@@ -23,13 +23,13 @@ function toggleTheme() {
           <img src="/favicon.svg" alt="" class="h-8 w-8 shrink-0" width="32" height="32">
           <img
             src="/logo.svg"
-            alt="Daqeeq"
+            alt="Daqiq"
             class="hidden h-7 w-auto sm:dark:block"
             height="28"
           >
           <img
             src="/logo-light.svg"
-            alt="Daqeeq"
+            alt="Daqiq"
             class="hidden h-7 w-auto sm:block sm:dark:hidden"
             height="28"
           >

@@ -1,5 +1,5 @@
 {
-  "brand": "Daqeeq",
+  "brand": "Daqiq",
   "documentation": "Documentation",
   "dashboard": "Dashboard",
   "search": "Search docs...",
@@ -20,13 +20,13 @@
     "guides": "Guides",
     "resources": "Resources",
     "swagger": "Swagger UI",
-    "copyright": "Daqeeq Public API Documentation"
+    "copyright": "Daqiq Public API Documentation"
   },
   "hero": {
     "badge": "Developer Documentation",
     "title": "Integrate with",
-    "titleHighlight": "Daqeeq",
-    "description": "The Daqeeq Public API lets you sync orders, products, stock, and customers with your systems — all through a simple REST API authenticated with tenant-issued API keys."
+    "titleHighlight": "Daqiq",
+    "description": "The Daqiq Public API lets you sync orders, products, stock, and customers with your systems — all through a simple REST API authenticated with tenant-issued API keys."
   },
   "features": {
     "auth": {
@@ -56,7 +56,7 @@
   },
   "quickStartSteps": {
     "step1Title": "Get your API key",
-    "step1Desc": "Create a key in Daqeeq → Settings → API Keys at app.daqiqerp.com. Keys start with daqiq_live_ and are shown only once.",
+    "step1Desc": "Create a key in Daqiq → Settings → API Keys at app.daqiqerp.com. Keys start with daqiq_live_ and are shown only once.",
     "step2Title": "Confirm with ping",
     "step2Desc": "Call GET /v1/public/ping to verify credentials and see granted scopes.",
     "step3Title": "Create an order",

@@ -1,9 +1,9 @@
 ---
 title: Overview
-description: Partner-facing HTTP API for integrating with Daqeeq ERP using tenant-issued API keys.
+description: Partner-facing HTTP API for integrating with Daqiq ERP using tenant-issued API keys.
 ---
 
-The Daqeeq Public API is a partner-facing HTTP API authenticated with **tenant-issued API keys**. Use it to sync orders, products, stock, inventory, and customers with external systems.
+The Daqiq Public API is a partner-facing HTTP API authenticated with **tenant-issued API keys**. Use it to sync orders, products, stock, inventory, and customers with external systems.
 
 ## Base URLs
 
@@ -27,9 +27,9 @@ A development environment is also available at `https://api-dev.goerp.net/api`.
 
 ## Getting an API key
 
-API keys are created in the Daqeeq dashboard:
+API keys are created in the Daqiq dashboard:
 
-**Settings → مفاتيح API (API Keys)** in [Daqeeq](https://app.daqiqerp.com)
+**Settings → مفاتيح API (API Keys)** in [Daqiq](https://app.daqiqerp.com)
 
 Only tenant administrators can manage keys. Keys look like:
 
