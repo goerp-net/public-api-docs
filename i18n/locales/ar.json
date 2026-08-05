@@ -1,0 +1,85 @@
+{
+  "brand": "دقيق",
+  "documentation": "التوثيق",
+  "dashboard": "لوحة التحكم",
+  "search": "ابحث في التوثيق...",
+  "searchHint": "اكتب للبحث، أو اضغط / في الصفحة",
+  "searchNoResults": "لا توجد نتائج",
+  "getStarted": "ابدأ الآن",
+  "authGuide": "دليل المصادقة",
+  "exploreApi": "استكشف واجهة API",
+  "exploreSubtitle": "كل ما تحتاجه لبناء تكامل مع نظام دقيق.",
+  "quickStart": "البدء السريع",
+  "quickStartSubtitle": "أرسل أول طلب API خلال دقائق.",
+  "readGuide": "اقرأ دليل البدء",
+  "onThisPage": "في هذه الصفحة",
+  "previous": "السابق",
+  "next": "التالي",
+  "footer": {
+    "documentation": "التوثيق",
+    "guides": "الأدلة",
+    "resources": "الموارد",
+    "swagger": "Swagger UI",
+    "copyright": "توثيق واجهة API العامة لدقيق"
+  },
+  "hero": {
+    "badge": "توثيق المطورين",
+    "title": "تكامل مع",
+    "titleHighlight": "دقيق",
+    "description": "تتيح لك واجهة API العامة لدقيق مزامنة الطلبات والمنتجات والمخزون والعملاء مع أنظمتك — عبر REST API بسيطة مع مفاتيح API صادرة عن المستأجر."
+  },
+  "features": {
+    "auth": {
+      "title": "المصادقة",
+      "description": "أمّن تكاملك بمفاتيح API تُرسل عبر ترويسة X-Api-Key في كل طلب."
+    },
+    "orders": {
+      "title": "الطلبات",
+      "description": "اعرض وأنشئ وألغِ طلبات المبيعات مع إنشاء idempotent وتفاصيل كاملة للبنود."
+    },
+    "catalog": {
+      "title": "المنتجات والمخزون",
+      "description": "اقرأ المنتجات وتحقق من الكمية المتاحة عبر المستودعات واستعلم عن مواقع المخزون."
+    },
+    "scopes": {
+      "title": "صلاحيات محددة",
+      "description": "امنح فقط الصلاحيات التي يحتاجها التكامل — قراءة الطلبات، إنشاؤها، الإلغاء، المنتجات، المخزون، والمزيد."
+    },
+    "errors": {
+      "title": "أخطاء منظمة",
+      "description": "كل خطأ يُرجع code ثابت يمكنك الاعتماد عليه، مع رسائل مترجمة ومعرفات تتبع للدعم."
+    },
+    "rateLimits": {
+      "title": "حدود المعدل",
+      "description": "120 طلباً في الدقيقة لكل مفتاح مع معالجة واضحة لـ 429 — حدود متوقعة للتكامل الإنتاجي."
+    }
+  },
+    "quickStartSteps": {
+    "step1Title": "احصل على مفتاح API",
+    "step1Desc": "أنشئ مفتاحاً في دقيق ← الإعدادات ← مفاتيح API على app.daqiqerp.com. المفاتيح تبدأ بـ daqiq_live_ وتُعرض مرة واحدة فقط.",
+    "step2Title": "تحقق عبر ping",
+    "step2Desc": "استدعِ GET /v1/public/ping للتحقق من بيانات الاعتماد ورؤية الصلاحيات الممنوحة.",
+    "step3Title": "أنشئ طلباً",
+    "step3Desc": "أرسل POST إلى /v1/public/orders مع بيانات العميل وبنود الطلب."
+  },
+  "nav": {
+    "gettingStarted": "البدء",
+    "overview": "نظرة عامة",
+    "authentication": "المصادقة",
+    "scopes": "الصلاحيات",
+    "checklist": "قائمة التكامل",
+    "guides": "الأدلة",
+    "errors": "الأخطاء",
+    "rateLimits": "حدود المعدل",
+    "pagination": "ترقيم الصفحات",
+    "idempotency": "Idempotency",
+    "compatibility": "التوافق",
+    "apiReference": "مرجع API",
+    "ping": "Ping",
+    "orders": "الطلبات",
+    "products": "المنتجات",
+    "stock": "المخزون",
+    "inventory": "المستودعات",
+    "customers": "العملاء"
+  }
+}

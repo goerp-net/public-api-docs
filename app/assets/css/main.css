@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply scroll-smooth antialiased;
+  }
+
+  body {
+    @apply bg-white text-zinc-900 dark:bg-surface dark:text-zinc-100;
+  }
+
+  [dir='rtl'] body {
+    font-family: 'IBM Plex Sans Arabic', 'Inter', system-ui, sans-serif;
+  }
+
+  [dir='ltr'] body {
+    font-family: 'Inter', 'IBM Plex Sans Arabic', system-ui, sans-serif;
+  }
+}
+
+@layer components {
+  .docs-prose {
+    @apply prose prose-zinc max-w-none dark:prose-invert
+      prose-headings:scroll-mt-24 prose-headings:font-semibold
+      prose-a:text-brand prose-a:no-underline hover:prose-a:underline
+      prose-code:text-brand prose-code:before:content-none prose-code:after:content-none
+      prose-pre:bg-zinc-950 prose-pre:border prose-pre:border-zinc-800;
+  }
+
+  .glass-card {
+    @apply rounded-xl border border-zinc-200 bg-white/80 backdrop-blur
+      dark:border-surface-border dark:bg-surface-card/80;
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center gap-2 rounded-lg bg-brand px-5 py-2.5
+      text-sm font-semibold text-brand-foreground transition hover:bg-brand-muted;
+  }
+
+  .btn-secondary {
+    @apply inline-flex items-center gap-2 rounded-lg border border-zinc-300 px-5 py-2.5
+      text-sm font-medium transition hover:bg-zinc-100
+      dark:border-surface-border dark:hover:bg-surface-elevated;
+  }
+}

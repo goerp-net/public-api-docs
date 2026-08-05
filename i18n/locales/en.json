@@ -1,0 +1,85 @@
+{
+  "brand": "Daqeeq",
+  "documentation": "Documentation",
+  "dashboard": "Dashboard",
+  "search": "Search docs...",
+  "searchHint": "Type to search, or press / on the page",
+  "searchNoResults": "No results",
+  "getStarted": "Get Started",
+  "authGuide": "Authentication Guide",
+  "exploreApi": "Explore the API",
+  "exploreSubtitle": "Everything you need to build an ERP integration.",
+  "quickStart": "Quick Start",
+  "quickStartSubtitle": "Send your first API request in minutes.",
+  "readGuide": "Read the Getting Started Guide",
+  "onThisPage": "On this page",
+  "previous": "Previous",
+  "next": "Next",
+  "footer": {
+    "documentation": "Documentation",
+    "guides": "Guides",
+    "resources": "Resources",
+    "swagger": "Swagger UI",
+    "copyright": "Daqeeq Public API Documentation"
+  },
+  "hero": {
+    "badge": "Developer Documentation",
+    "title": "Integrate with",
+    "titleHighlight": "Daqeeq",
+    "description": "The Daqeeq Public API lets you sync orders, products, stock, and customers with your systems — all through a simple REST API authenticated with tenant-issued API keys."
+  },
+  "features": {
+    "auth": {
+      "title": "Authentication",
+      "description": "Secure your integration with API keys sent via the X-Api-Key header on every request."
+    },
+    "orders": {
+      "title": "Orders",
+      "description": "List, create, and cancel sales orders with idempotent creation and full line-item details."
+    },
+    "catalog": {
+      "title": "Catalog & Stock",
+      "description": "Read products, check available quantity across warehouses, and query inventory locations."
+    },
+    "scopes": {
+      "title": "Scoped Access",
+      "description": "Grant only the permissions an integration needs — read orders, write orders, cancel, products, stock, and more."
+    },
+    "errors": {
+      "title": "Structured Errors",
+      "description": "Every error returns a stable code you can branch on, with localized messages and trace IDs for support."
+    },
+    "rateLimits": {
+      "title": "Rate Limits",
+      "description": "120 requests per minute per key with clear 429 handling — predictable limits for production integrations."
+    }
+  },
+  "quickStartSteps": {
+    "step1Title": "Get your API key",
+    "step1Desc": "Create a key in Daqeeq → Settings → API Keys at app.daqiqerp.com. Keys start with daqiq_live_ and are shown only once.",
+    "step2Title": "Confirm with ping",
+    "step2Desc": "Call GET /v1/public/ping to verify credentials and see granted scopes.",
+    "step3Title": "Create an order",
+    "step3Desc": "POST to /v1/public/orders with customer details and line items."
+  },
+  "nav": {
+    "gettingStarted": "Getting Started",
+    "overview": "Overview",
+    "authentication": "Authentication",
+    "scopes": "Scopes",
+    "checklist": "Integration Checklist",
+    "guides": "Guides",
+    "errors": "Errors",
+    "rateLimits": "Rate Limits",
+    "pagination": "Pagination",
+    "idempotency": "Idempotency",
+    "compatibility": "Compatibility",
+    "apiReference": "API Reference",
+    "ping": "Ping",
+    "orders": "Orders",
+    "products": "Products",
+    "stock": "Stock",
+    "inventory": "Inventory",
+    "customers": "Customers"
+  }
+}
