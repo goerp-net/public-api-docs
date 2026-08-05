@@ -3,6 +3,7 @@ import { Search, X } from 'lucide-vue-next'
 
 const { t, locale } = useI18n()
 const localePath = useLocalePath()
+const { searchDocs } = useDocsSearch()
 const open = useState('docs-search-open', () => false)
 const query = ref('')
 const results = ref<Array<{ title: string; path: string; description?: string }>>([])
@@ -19,9 +20,7 @@ async function runSearch() {
 
   loading.value = true
   try {
-    results.value = await $fetch('/api/search', {
-      query: { q, locale: locale.value },
-    })
+    results.value = await searchDocs(q, locale.value)
   } catch {
     results.value = []
   } finally {
