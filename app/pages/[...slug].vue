@@ -26,7 +26,7 @@ if (!page.value) {
 }
 
 useSeoMeta({
-  title: () => page.value?.title ? `${page.value.title} · Daqiq API` : 'Daqiq API',
+  title: () => page.value?.title ? `${page.value.title} · daqiq API` : 'daqiq API',
   description: () => page.value?.description ?? '',
 })
 </script>

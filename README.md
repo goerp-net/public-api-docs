@@ -1,6 +1,6 @@
-# Daqiq Public API Documentation
+# daqiq Public API Documentation
 
-Bilingual (English / Arabic) documentation site for the Daqiq Public API, built with Nuxt 3, Nuxt Content, and Tailwind CSS.
+Bilingual (English / Arabic) documentation site for the daqiq Public API, built with Nuxt 3, Nuxt Content, and Tailwind CSS.
 
 ## Features
 

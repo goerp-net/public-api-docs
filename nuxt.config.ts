@@ -13,9 +13,9 @@ export default defineNuxtConfig({
 
   app: {
     head: {
-      title: 'Daqiq API Documentation',
+      title: 'daqiq API Documentation',
       meta: [
-        { name: 'description', content: 'Public API documentation for Daqiq ERP integrations.' },
+        { name: 'description', content: 'Public API documentation for daqiq ERP integrations.' },
       ],
       link: [
         { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' },
@@ -47,7 +47,7 @@ export default defineNuxtConfig({
     langDir: '../i18n/locales',
     detectBrowserLanguage: {
       useCookie: true,
-      cookieKey: 'daqeeq_docs_locale',
+      cookieKey: 'daqiq_docs_locale',
       redirectOn: 'root',
     },
   },

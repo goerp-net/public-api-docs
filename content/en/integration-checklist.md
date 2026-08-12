@@ -1,6 +1,6 @@
 ---
 title: Integration Checklist
-description: Best practices for building a reliable Daqiq public API integration.
+description: Best practices for building a reliable daqiq public API integration.
 ---
 
 ## Before you go live
