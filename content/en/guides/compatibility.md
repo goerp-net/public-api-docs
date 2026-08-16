@@ -36,7 +36,6 @@ New enum values may be added over time for fields like `status`, `shippingStatus
 |-------|--------|
 | Auth error `message` is raw i18n key | Fix pending — use `code` |
 | 429 rate limit is plain text | Fix pending — check status first |
-| `salesPrice` null on `GET /products/{id}` | Fix pending — use list + `sku` filter |
 | `write_products` scope unused | Defined but no endpoints |
 | Order update not exposed | Create and cancel only |
 

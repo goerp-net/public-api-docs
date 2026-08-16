@@ -5,6 +5,8 @@ description: Query on-hand, reserved, and available quantity per variant per loc
 
 Scope: **`read_stock`**
 
+[Products](/en/api-reference/products) now include inline stock totals on list/get. Use `/stock` when you need a **per-warehouse, per-location** breakdown.
+
 ## List stock
 
 ::api-endpoint{method="GET" path="/v1/public/stock" scope="read_stock"}

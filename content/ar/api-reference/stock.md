@@ -3,6 +3,8 @@ title: المخزون
 description: الكمية المتاحة والمحجوزة لكل متغير وموقع.
 ---
 
+[المنتجات](/ar/api-reference/products) تتضمن مجاميع مخزون مدمجة. استخدم `/stock` للتفصيل **حسب المستودع والموقع**.
+
 ::api-endpoint{method="GET" path="/v1/public/stock" scope="read_stock"}
 ::
 

@@ -38,7 +38,7 @@
     },
     "catalog": {
       "title": "Catalog & Stock",
-      "description": "Read products, check available quantity across warehouses, and query inventory locations."
+      "description": "Read products with nested variants and inline stock, or query per-warehouse inventory."
     },
     "scopes": {
       "title": "Scoped Access",

@@ -95,7 +95,7 @@ Orders hidden by the tenant's subscription state are never returned.
 |-------|-------|
 | `customerName`, `customerPhone` | Required |
 | `shippingGovernorate`, `shippingCity`, `shippingAddress` | Required |
-| `lines` | At least one line with `sku` **or** `productVariantId` |
+| `lines` | At least one line with **variant** `sku` **or** `productVariantId` — not the product SKU |
 | `warehouseId` | Required when tenant has more than one active warehouse |
 
 You **cannot set prices** — unit prices come from the tenant's retail price list. Returns **201 Created** with the full order.
@@ -104,7 +104,7 @@ See [Idempotency](/en/guides/idempotency) for `externalOrderId` retry behaviour.
 
 ### Stock note
 
-Orders do **not** reserve stock at creation. Check `/v1/public/stock` first if availability matters.
+Orders do **not** reserve stock at creation. Product list/get responses include inline stock totals — use `variants[].availableQuantity` when deciding what to sell. For per-warehouse detail, call `/v1/public/stock`.
 
 ### Over-quota orders
 

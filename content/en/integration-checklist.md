@@ -30,7 +30,7 @@ description: Best practices for building a reliable daqiq public API integration
 | Idempotency is best-effort | Serialise retries; no parallel identical creates |
 | No `Retry-After` on 429 | Back off ~1 minute |
 | Paging capped at 10,000 | Use time-window walk. Cursors planned. |
-| `salesPrice` is null on `GET /products/{id}` | Use list endpoint filtered by `sku`. Fix pending. |
+| Products are nested (product + `variants[]`) | Use variant id/SKU for orders. See [Products](/en/api-reference/products). |
 | `write_products` grants nothing | Defined but unused |
 | Order update is not exposed | Create and cancel only |
 | `lastUsedAt` is up to 5 minutes stale | By design |
