@@ -30,9 +30,9 @@ const curlExample = `curl ${apiExampleUrl('/v1/public/orders')} \\
   -H "X-Api-Key: daqiq_live_your_key_here" \\
   -H "Content-Type: application/json"`
 
-useSeoMeta({
-  title: () => `${t('brand')} API Documentation`,
-  description: () => t('hero.description'),
+useSiteSeo({
+  title: computed(() => `${t('brand')} API Documentation`),
+  description: computed(() => t('hero.description')),
 })
 </script>
 

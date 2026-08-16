@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://docs.daqiqerp.com/en</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://docs.daqiqerp.com/en" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://docs.daqiqerp.com/ar" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://docs.daqiqerp.com/en" />
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://docs.daqiqerp.com/ar</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://docs.daqiqerp.com/en" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://docs.daqiqerp.com/ar" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://docs.daqiqerp.com/en" />
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://docs.daqiqerp.com/en/authentication</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://docs.daqiqerp.com/en/authentication" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://docs.daqiqerp.com/ar/authentication" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://docs.daqiqerp.com/en/authentication" />
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://docs.daqiqerp.com/ar/authentication</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://docs.daqiqerp.com/en/authentication" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://docs.daqiqerp.com/ar/authentication" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://docs.daqiqerp.com/en/authentication" />
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://docs.daqiqerp.com/en/guides/compatibility</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://docs.daqiqerp.com/en/guides/compatibility" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://docs.daqiqerp.com/ar/guides/compatibility" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://docs.daqiqerp.com/en/guides/compatibility" />
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://docs.daqiqerp.com/ar/guides/compatibility</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://docs.daqiqerp.com/en/guides/compatibility" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://docs.daqiqerp.com/ar/guides/compatibility" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://docs.daqiqerp.com/en/guides/compatibility" />
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://docs.daqiqerp.com/en/api-reference/customers</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://docs.daqiqerp.com/en/api-reference/customers" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://docs.daqiqerp.com/ar/api-reference/customers" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://docs.daqiqerp.com/en/api-reference/customers" />
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://docs.daqiqerp.com/ar/api-reference/customers</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://docs.daqiqerp.com/en/api-reference/customers" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://docs.daqiqerp.com/ar/api-reference/customers" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://docs.daqiqerp.com/en/api-reference/customers" />
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://docs.daqiqerp.com/en/guides/errors</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://docs.daqiqerp.com/en/guides/errors" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://docs.daqiqerp.com/ar/guides/errors" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://docs.daqiqerp.com/en/guides/errors" />
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://docs.daqiqerp.com/ar/guides/errors</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://docs.daqiqerp.com/en/guides/errors" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://docs.daqiqerp.com/ar/guides/errors" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://docs.daqiqerp.com/en/guides/errors" />
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://docs.daqiqerp.com/en/guides/idempotency</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://docs.daqiqerp.com/en/guides/idempotency" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://docs.daqiqerp.com/ar/guides/idempotency" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://docs.daqiqerp.com/en/guides/idempotency" />
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://docs.daqiqerp.com/ar/guides/idempotency</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://docs.daqiqerp.com/en/guides/idempotency" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://docs.daqiqerp.com/ar/guides/idempotency" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://docs.daqiqerp.com/en/guides/idempotency" />
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://docs.daqiqerp.com/en/integration-checklist</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://docs.daqiqerp.com/en/integration-checklist" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://docs.daqiqerp.com/ar/integration-checklist" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://docs.daqiqerp.com/en/integration-checklist" />
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://docs.daqiqerp.com/ar/integration-checklist</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://docs.daqiqerp.com/en/integration-checklist" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://docs.daqiqerp.com/ar/integration-checklist" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://docs.daqiqerp.com/en/integration-checklist" />
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://docs.daqiqerp.com/en/api-reference/inventory</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://docs.daqiqerp.com/en/api-reference/inventory" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://docs.daqiqerp.com/ar/api-reference/inventory" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://docs.daqiqerp.com/en/api-reference/inventory" />
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://docs.daqiqerp.com/ar/api-reference/inventory</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://docs.daqiqerp.com/en/api-reference/inventory" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://docs.daqiqerp.com/ar/api-reference/inventory" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://docs.daqiqerp.com/en/api-reference/inventory" />
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://docs.daqiqerp.com/en/api-reference/orders</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://docs.daqiqerp.com/en/api-reference/orders" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://docs.daqiqerp.com/ar/api-reference/orders" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://docs.daqiqerp.com/en/api-reference/orders" />
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://docs.daqiqerp.com/ar/api-reference/orders</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://docs.daqiqerp.com/en/api-reference/orders" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://docs.daqiqerp.com/ar/api-reference/orders" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://docs.daqiqerp.com/en/api-reference/orders" />
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://docs.daqiqerp.com/en/getting-started</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://docs.daqiqerp.com/en/getting-started" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://docs.daqiqerp.com/ar/getting-started" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://docs.daqiqerp.com/en/getting-started" />
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://docs.daqiqerp.com/ar/getting-started</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://docs.daqiqerp.com/en/getting-started" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://docs.daqiqerp.com/ar/getting-started" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://docs.daqiqerp.com/en/getting-started" />
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://docs.daqiqerp.com/en/guides/pagination</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://docs.daqiqerp.com/en/guides/pagination" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://docs.daqiqerp.com/ar/guides/pagination" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://docs.daqiqerp.com/en/guides/pagination" />
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://docs.daqiqerp.com/ar/guides/pagination</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://docs.daqiqerp.com/en/guides/pagination" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://docs.daqiqerp.com/ar/guides/pagination" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://docs.daqiqerp.com/en/guides/pagination" />
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://docs.daqiqerp.com/en/api-reference/ping</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://docs.daqiqerp.com/en/api-reference/ping" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://docs.daqiqerp.com/ar/api-reference/ping" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://docs.daqiqerp.com/en/api-reference/ping" />
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://docs.daqiqerp.com/ar/api-reference/ping</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://docs.daqiqerp.com/en/api-reference/ping" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://docs.daqiqerp.com/ar/api-reference/ping" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://docs.daqiqerp.com/en/api-reference/ping" />
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://docs.daqiqerp.com/en/api-reference/products</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://docs.daqiqerp.com/en/api-reference/products" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://docs.daqiqerp.com/ar/api-reference/products" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://docs.daqiqerp.com/en/api-reference/products" />
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://docs.daqiqerp.com/ar/api-reference/products</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://docs.daqiqerp.com/en/api-reference/products" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://docs.daqiqerp.com/ar/api-reference/products" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://docs.daqiqerp.com/en/api-reference/products" />
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://docs.daqiqerp.com/en/guides/rate-limits</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://docs.daqiqerp.com/en/guides/rate-limits" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://docs.daqiqerp.com/ar/guides/rate-limits" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://docs.daqiqerp.com/en/guides/rate-limits" />
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://docs.daqiqerp.com/ar/guides/rate-limits</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://docs.daqiqerp.com/en/guides/rate-limits" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://docs.daqiqerp.com/ar/guides/rate-limits" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://docs.daqiqerp.com/en/guides/rate-limits" />
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://docs.daqiqerp.com/en/scopes</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://docs.daqiqerp.com/en/scopes" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://docs.daqiqerp.com/ar/scopes" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://docs.daqiqerp.com/en/scopes" />
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://docs.daqiqerp.com/ar/scopes</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://docs.daqiqerp.com/en/scopes" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://docs.daqiqerp.com/ar/scopes" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://docs.daqiqerp.com/en/scopes" />
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://docs.daqiqerp.com/en/api-reference/stock</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://docs.daqiqerp.com/en/api-reference/stock" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://docs.daqiqerp.com/ar/api-reference/stock" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://docs.daqiqerp.com/en/api-reference/stock" />
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://docs.daqiqerp.com/ar/api-reference/stock</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://docs.daqiqerp.com/en/api-reference/stock" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://docs.daqiqerp.com/ar/api-reference/stock" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://docs.daqiqerp.com/en/api-reference/stock" />
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+</urlset>

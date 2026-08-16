@@ -25,9 +25,20 @@ if (!page.value) {
   throw createError({ statusCode: 404, statusMessage: 'Page not found', fatal: true })
 }
 
-useSeoMeta({
-  title: () => page.value?.title ? `${page.value.title} · daqiq API` : 'daqiq API',
-  description: () => page.value?.description ?? '',
+const seoTitle = computed(() =>
+  page.value?.title ? `${page.value.title} · daqiq API` : 'daqiq API',
+)
+const seoDescription = computed(() => page.value?.description ?? '')
+
+useSiteSeo({
+  title: seoTitle,
+  description: seoDescription,
+  type: 'article',
+})
+
+useDocStructuredData({
+  title: computed(() => page.value?.title ?? 'daqiq API'),
+  description: seoDescription,
 })
 </script>
 
