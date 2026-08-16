@@ -12,7 +12,7 @@ const styles: Record<string, string> = {
 
 <template>
   <div
-    class="not-prose my-6 rounded-lg border px-4 py-3 text-sm [&_strong]:font-semibold"
+    class="not-prose my-6 rounded-lg border px-4 py-3 text-start text-sm [&_strong]:font-semibold"
     :class="styles[type ?? 'info']"
   >
     <slot />

@@ -20,12 +20,71 @@
   }
 }
 
+@layer base {
+  html {
+    @apply scroll-smooth antialiased;
+  }
+
+  body {
+    @apply bg-white text-zinc-900 dark:bg-surface dark:text-zinc-100;
+  }
+
+  [dir='rtl'] body {
+    font-family: 'IBM Plex Sans Arabic', 'Inter', system-ui, sans-serif;
+  }
+
+  [dir='ltr'] body {
+    font-family: 'Inter', 'IBM Plex Sans Arabic', system-ui, sans-serif;
+  }
+}
+
 @layer components {
   .docs-prose {
-    @apply prose prose-zinc max-w-none dark:prose-invert
+    @apply prose prose-zinc max-w-none text-start dark:prose-invert
       prose-headings:scroll-mt-24 prose-headings:font-semibold prose-headings:text-zinc-900
       dark:prose-headings:text-zinc-100
       prose-pre:bg-zinc-950 prose-pre:border prose-pre:border-zinc-800;
+  }
+
+  /* Typography plugin uses physical padding/borders — remap for RTL */
+  [dir='rtl'] .docs-prose :where(ul, ol) {
+    padding-left: 0;
+    padding-inline-start: 1.625em;
+  }
+
+  [dir='rtl'] .docs-prose :where(ul > li, ol > li) {
+    padding-left: 0;
+    padding-inline-start: 0.375em;
+  }
+
+  [dir='rtl'] .docs-prose :where(blockquote) {
+    border-left-width: 0;
+    border-inline-end-width: 0.25rem;
+    padding-left: 0;
+    padding-inline-end: 1em;
+  }
+
+  [dir='rtl'] .docs-prose :where(thead th, tbody td) {
+    text-align: start;
+  }
+
+  [dir='rtl'] .docs-prose :where(pre) {
+    direction: ltr;
+    text-align: left;
+  }
+
+  [dir='rtl'] .docs-prose :where(:not(pre) > code) {
+    direction: ltr;
+    unicode-bidi: embed;
+  }
+
+  [dir='rtl'] .docs-prose :where(table) {
+    direction: rtl;
+  }
+
+  [dir='rtl'] .docs-prose :where(th, td) :where(code) {
+    direction: ltr;
+    unicode-bidi: embed;
   }
 
   .docs-prose :where(a) {

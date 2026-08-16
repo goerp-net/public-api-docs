@@ -32,7 +32,7 @@ useSeoMeta({
 </script>
 
 <template>
-  <article v-if="page">
+  <article v-if="page" class="text-start">
     <header class="mb-8 border-b border-zinc-200 pb-6 dark:border-surface-border">
       <h1 class="text-3xl font-bold tracking-tight">{{ page.title }}</h1>
       <p v-if="page.description" class="mt-2 text-lg text-zinc-600 dark:text-zinc-400">

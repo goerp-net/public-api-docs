@@ -11,7 +11,7 @@ const localePath = useLocalePath()
     <div class="mx-auto max-w-7xl px-4 py-12 sm:px-6">
       <div class="grid gap-8 sm:grid-cols-3">
         <div>
-          <h3 class="mb-4 text-sm font-semibold">{{ t('footer.documentation') }}</h3>
+          <h3 class="mb-4 text-start text-sm font-semibold">{{ t('footer.documentation') }}</h3>
           <ul class="space-y-2 text-sm text-zinc-600 dark:text-zinc-400">
             <li>
               <NuxtLink :to="localePath('/getting-started')" class="transition hover:text-zinc-900 hover:underline hover:decoration-brand hover:decoration-2 hover:underline-offset-2 dark:hover:text-zinc-100">
@@ -32,7 +32,7 @@ const localePath = useLocalePath()
         </div>
 
         <div>
-          <h3 class="mb-4 text-sm font-semibold">{{ t('footer.guides') }}</h3>
+          <h3 class="mb-4 text-start text-sm font-semibold">{{ t('footer.guides') }}</h3>
           <ul class="space-y-2 text-sm text-zinc-600 dark:text-zinc-400">
             <li>
               <NuxtLink :to="localePath('/guides/errors')" class="transition hover:text-zinc-900 hover:underline hover:decoration-brand hover:decoration-2 hover:underline-offset-2 dark:hover:text-zinc-100">
@@ -53,7 +53,7 @@ const localePath = useLocalePath()
         </div>
 
         <div>
-          <h3 class="mb-4 text-sm font-semibold">{{ t('footer.resources') }}</h3>
+          <h3 class="mb-4 text-start text-sm font-semibold">{{ t('footer.resources') }}</h3>
           <ul class="space-y-2 text-sm text-zinc-600 dark:text-zinc-400">
             <li>
               <a

@@ -88,7 +88,7 @@ function closeSearch() {
               v-model="query"
               type="search"
               :placeholder="t('search')"
-              class="min-w-0 flex-1 bg-transparent text-sm text-zinc-100 outline-none placeholder:text-zinc-500"
+              class="min-w-0 flex-1 bg-transparent text-start text-sm text-zinc-100 outline-none placeholder:text-zinc-500"
             >
             <button
               type="button"
@@ -111,7 +111,7 @@ function closeSearch() {
               v-for="item in results"
               :key="item.path"
               :to="localePath(item.path)"
-              class="block rounded-lg px-3 py-2.5 transition hover:bg-zinc-800"
+              class="block rounded-lg px-3 py-2.5 text-start transition hover:bg-zinc-800"
               @click="closeSearch"
             >
               <div class="font-medium text-zinc-100">{{ item.title }}</div>
