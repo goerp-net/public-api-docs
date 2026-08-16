@@ -19,12 +19,6 @@ description: واجهة HTTP للشركاء للتكامل مع نظام دقي�
 https://api.daqiqerp.com/api/v1/public/orders
 ```
 
-## مرجع تفاعلي
-
-افتح [Swagger UI](https://api.daqiqerp.com/api/swagger-ui/index.html). نقاط النهاية العامة موسومة **Public API - *** وتستخدم مخطط **ApiKey**. انقر **Authorize** والصق مفتاحك.
-
-بيئة التطوير متاحة أيضاً على `https://api-dev.goerp.net/api`.
-
 ## الحصول على مفتاح API
 
 تُنشأ مفاتيح API من لوحة تحكم دقيق:

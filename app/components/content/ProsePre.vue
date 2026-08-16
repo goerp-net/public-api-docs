@@ -44,7 +44,7 @@ async function copyCode() {
     </button>
     <pre
       ref="preRef"
-      class="overflow-x-auto rounded-lg border border-zinc-800 bg-zinc-950 p-4 text-sm leading-relaxed"
+      class="code-block overflow-x-auto rounded-lg border border-zinc-800 bg-zinc-950 p-4 font-mono text-sm leading-relaxed"
       dir="ltr"
       :class="props.class"
     ><code><slot /></code></pre>

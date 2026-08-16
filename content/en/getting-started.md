@@ -19,12 +19,6 @@ The `/api` context path is part of the URL. Every path in this documentation is 
 https://api.daqiqerp.com/api/v1/public/orders
 ```
 
-## Interactive reference
-
-Open [Swagger UI](https://api.daqiqerp.com/api/swagger-ui/index.html) for an interactive reference. Public endpoints are tagged **Public API - *** and use the **ApiKey** security scheme. Click **Authorize**, paste your key into the ApiKey box, and the `X-Api-Key` header is sent for you.
-
-A development environment is also available at `https://api-dev.goerp.net/api`.
-
 ## Getting an API key
 
 API keys are created in the daqiq dashboard:

@@ -44,5 +44,4 @@ Documentation is derived from `spec/public-api.md` (Part 2 — partner-facing pu
 
 - Dashboard: https://app.daqiqerp.com
 - API (production): https://api.daqiqerp.com/api
-- Swagger UI: https://api.daqiqerp.com/api/swagger-ui/index.html
 - API (dev): https://api-dev.goerp.net/api

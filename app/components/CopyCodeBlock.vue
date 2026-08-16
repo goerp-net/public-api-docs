@@ -29,6 +29,6 @@ async function copyCode() {
       <Copy v-else class="h-3.5 w-3.5" />
       <span>{{ copied ? 'Copied' : 'Copy' }}</span>
     </button>
-    <pre class="overflow-x-auto p-4 font-mono text-sm leading-relaxed text-zinc-300" dir="ltr"><code>{{ code }}</code></pre>
+    <pre class="code-block overflow-x-auto p-4 font-mono text-sm leading-relaxed" dir="ltr"><code>{{ code }}</code></pre>
   </div>
 </template>

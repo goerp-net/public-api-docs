@@ -23,10 +23,30 @@
 @layer components {
   .docs-prose {
     @apply prose prose-zinc max-w-none dark:prose-invert
-      prose-headings:scroll-mt-24 prose-headings:font-semibold
-      prose-a:text-brand prose-a:no-underline hover:prose-a:underline
-      prose-code:text-brand prose-code:before:content-none prose-code:after:content-none
+      prose-headings:scroll-mt-24 prose-headings:font-semibold prose-headings:text-zinc-900
+      dark:prose-headings:text-zinc-100
       prose-pre:bg-zinc-950 prose-pre:border prose-pre:border-zinc-800;
+  }
+
+  .docs-prose :where(a) {
+    @apply text-zinc-900 underline decoration-brand decoration-2 underline-offset-2;
+  }
+
+  .docs-prose :where(code):not(:where(pre *)) {
+    @apply rounded bg-zinc-100 px-1 py-0.5 text-zinc-800 no-underline;
+  }
+
+  .docs-prose :where(code):not(:where(pre *))::before,
+  .docs-prose :where(code):not(:where(pre *))::after {
+    content: none;
+  }
+
+  .dark .docs-prose :where(a) {
+    @apply text-zinc-100 decoration-brand;
+  }
+
+  .dark .docs-prose :where(code):not(:where(pre *)) {
+    @apply bg-zinc-800 text-zinc-100;
   }
 
   .glass-card {
@@ -43,5 +63,31 @@
     @apply inline-flex items-center gap-2 rounded-lg border border-zinc-300 px-5 py-2.5
       text-sm font-medium transition hover:bg-zinc-100
       dark:border-surface-border dark:hover:bg-surface-elevated;
+  }
+
+  .brand-underline {
+    @apply underline decoration-brand decoration-[3px] underline-offset-[6px];
+  }
+
+  .link-brand {
+    @apply text-zinc-900 underline decoration-brand decoration-2 underline-offset-2
+      dark:text-zinc-100;
+  }
+
+  .bg-brand-soft {
+    @apply bg-brand-subtle dark:bg-brand/10;
+  }
+
+  .code-block {
+    @apply font-bold text-white;
+  }
+
+  .code-block :where(code) {
+    @apply font-bold text-white;
+  }
+
+  .code-block :where(span) {
+    color: #fff !important;
+    font-weight: 700 !important;
   }
 }

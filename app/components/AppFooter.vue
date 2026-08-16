@@ -14,17 +14,17 @@ const localePath = useLocalePath()
           <h3 class="mb-4 text-sm font-semibold">{{ t('footer.documentation') }}</h3>
           <ul class="space-y-2 text-sm text-zinc-600 dark:text-zinc-400">
             <li>
-              <NuxtLink :to="localePath('/getting-started')" class="hover:text-brand">
+              <NuxtLink :to="localePath('/getting-started')" class="transition hover:text-zinc-900 hover:underline hover:decoration-brand hover:decoration-2 hover:underline-offset-2 dark:hover:text-zinc-100">
                 {{ t('nav.overview') }}
               </NuxtLink>
             </li>
             <li>
-              <NuxtLink :to="localePath('/authentication')" class="hover:text-brand">
+              <NuxtLink :to="localePath('/authentication')" class="transition hover:text-zinc-900 hover:underline hover:decoration-brand hover:decoration-2 hover:underline-offset-2 dark:hover:text-zinc-100">
                 {{ t('nav.authentication') }}
               </NuxtLink>
             </li>
             <li>
-              <NuxtLink :to="localePath('/api-reference/orders')" class="hover:text-brand">
+              <NuxtLink :to="localePath('/api-reference/orders')" class="transition hover:text-zinc-900 hover:underline hover:decoration-brand hover:decoration-2 hover:underline-offset-2 dark:hover:text-zinc-100">
                 {{ t('nav.orders') }}
               </NuxtLink>
             </li>
@@ -35,17 +35,17 @@ const localePath = useLocalePath()
           <h3 class="mb-4 text-sm font-semibold">{{ t('footer.guides') }}</h3>
           <ul class="space-y-2 text-sm text-zinc-600 dark:text-zinc-400">
             <li>
-              <NuxtLink :to="localePath('/guides/errors')" class="hover:text-brand">
+              <NuxtLink :to="localePath('/guides/errors')" class="transition hover:text-zinc-900 hover:underline hover:decoration-brand hover:decoration-2 hover:underline-offset-2 dark:hover:text-zinc-100">
                 {{ t('nav.errors') }}
               </NuxtLink>
             </li>
             <li>
-              <NuxtLink :to="localePath('/guides/rate-limits')" class="hover:text-brand">
+              <NuxtLink :to="localePath('/guides/rate-limits')" class="transition hover:text-zinc-900 hover:underline hover:decoration-brand hover:decoration-2 hover:underline-offset-2 dark:hover:text-zinc-100">
                 {{ t('nav.rateLimits') }}
               </NuxtLink>
             </li>
             <li>
-              <NuxtLink :to="localePath('/guides/pagination')" class="hover:text-brand">
+              <NuxtLink :to="localePath('/guides/pagination')" class="transition hover:text-zinc-900 hover:underline hover:decoration-brand hover:decoration-2 hover:underline-offset-2 dark:hover:text-zinc-100">
                 {{ t('nav.pagination') }}
               </NuxtLink>
             </li>
@@ -57,21 +57,10 @@ const localePath = useLocalePath()
           <ul class="space-y-2 text-sm text-zinc-600 dark:text-zinc-400">
             <li>
               <a
-                :href="siteConfig.swaggerUrl"
-                target="_blank"
-                rel="noopener noreferrer"
-                class="inline-flex items-center gap-1 hover:text-brand"
-              >
-                {{ t('footer.swagger') }}
-                <ExternalLink class="h-3.5 w-3.5" />
-              </a>
-            </li>
-            <li>
-              <a
                 :href="siteConfig.dashboardUrl"
                 target="_blank"
                 rel="noopener noreferrer"
-                class="inline-flex items-center gap-1 hover:text-brand"
+                class="inline-flex items-center gap-1 transition hover:text-zinc-900 hover:underline hover:decoration-brand hover:decoration-2 hover:underline-offset-2 dark:hover:text-zinc-100"
               >
                 {{ t('dashboard') }}
                 <ExternalLink class="h-3.5 w-3.5" />

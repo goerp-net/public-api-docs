@@ -10,7 +10,8 @@ export default {
         brand: {
           DEFAULT: '#c6ff34',
           foreground: '#0a0a0a',
-          muted: '#a3d929',
+          muted: '#b0e628',
+          subtle: '#eef6d6',
         },
         surface: {
           DEFAULT: '#212121',

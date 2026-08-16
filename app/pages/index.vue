@@ -46,7 +46,7 @@ useSeoMeta({
         </span>
         <h1 class="text-4xl font-bold tracking-tight sm:text-5xl lg:text-6xl">
           {{ t('hero.title') }}
-          <span class="text-brand">{{ t('hero.titleHighlight') }}</span>
+          <span class="brand-underline">{{ t('hero.titleHighlight') }}</span>
         </h1>
         <p class="mx-auto mt-6 max-w-2xl text-lg text-zinc-600 dark:text-zinc-400">
           {{ t('hero.description') }}
@@ -74,7 +74,7 @@ useSeoMeta({
           :key="feature.key"
           class="glass-card p-6 transition hover:border-brand/30"
         >
-          <div class="mb-4 flex h-10 w-10 items-center justify-center rounded-lg bg-brand/10 text-brand">
+          <div class="mb-4 flex h-10 w-10 items-center justify-center rounded-lg bg-brand-soft text-zinc-900 dark:text-zinc-100">
             <component :is="feature.icon" class="h-5 w-5" />
           </div>
           <h3 class="mb-2 font-semibold">{{ t(`features.${feature.key}.title`) }}</h3>

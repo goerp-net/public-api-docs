@@ -24,7 +24,7 @@ function isActive(slug: string) {
               :to="localePath(`/${item.slug}`)"
               class="block rounded-md px-3 py-1.5 text-sm transition"
               :class="isActive(item.slug)
-                ? 'bg-brand/10 font-medium text-brand'
+                ? 'font-medium text-zinc-900 underline decoration-brand decoration-2 underline-offset-4 dark:text-zinc-100'
                 : 'text-zinc-600 hover:bg-zinc-100 hover:text-zinc-900 dark:text-zinc-400 dark:hover:bg-surface-elevated dark:hover:text-zinc-100'"
             >
               {{ t(item.titleKey) }}
