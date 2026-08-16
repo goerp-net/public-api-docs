@@ -20,7 +20,6 @@ function toggleTheme() {
     <div class="mx-auto flex h-16 max-w-7xl items-center justify-between gap-4 px-4 sm:px-6">
       <div class="flex items-center gap-6">
         <NuxtLink :to="localePath('/')" class="flex items-center gap-2.5">
-          <img src="/favicon.svg" alt="" class="h-8 w-8 shrink-0" width="32" height="32">
           <img
             src="/logo.svg"
             alt="daqiq"
