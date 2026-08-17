@@ -7,11 +7,11 @@ description: واجهة HTTP للشركاء للتكامل مع نظام دقي�
 
 ## عناوين URL الأساسية
 
-| البيئة | عنوان URL |
-|--------|-----------|
-| الإنتاج | `https://api.daqiqerp.com/api` |
-| التطوير | `https://api-dev.goerp.net/api` |
-| محلي | `http://localhost:8080/api` |
+عنوان URL للإنتاج:
+
+```
+https://api.daqiqerp.com/api
+```
 
 مسار `/api` جزء من العنوان. كل مسار في هذا التوثيق نسبي لعنوان URL الأساسي. مثلاً `/v1/public/orders` يصبح:
 

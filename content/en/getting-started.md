@@ -7,11 +7,11 @@ The daqiq Public API is a partner-facing HTTP API authenticated with **tenant-is
 
 ## Base URLs
 
-| Environment | Base URL |
-|-------------|----------|
-| Production | `https://api.daqiqerp.com/api` |
-| Development | `https://api-dev.goerp.net/api` |
-| Local | `http://localhost:8080/api` |
+Production base URL:
+
+```
+https://api.daqiqerp.com/api
+```
 
 The `/api` context path is part of the URL. Every path in this documentation is relative to the base URL. For example, `/v1/public/orders` resolves to:
 

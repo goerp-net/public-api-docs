@@ -19,21 +19,6 @@ description: قراءة المنتجات مع المتغيرات المتداخ�
 **بنود الطلب تستخدم معرف/SKU المتغير، وليس معرف أو SKU المنتج.** إرسال `id` أو `sku` الخاص بالمنتج إلى `POST /v1/public/orders` يُرجع **404 `ENTITY_NOT_FOUND`**. ينطبق ذلك أيضاً على `/v1/public/stock`.
 ::
 
-## ما الذي تغيّر
-
-| قبل | بعد |
-|-----|-----|
-| صف القائمة = متغير واحد | صف = **منتج** مع `variants[]` |
-| `id` في الصف = معرف المتغير | `id` = **معرف المنتج** |
-| `GET /products/{id}` يأخذ معرف متغير | يأخذ **معرف المنتج** |
-| المخزون غير مدمج | `quantityOnHand`، `reservedQuantity`، `availableQuantity`، `inStock` |
-| `productName` | أُزيل — استخدم `name` |
-| `unitOfMeasure` على الصف | على كل **متغير** |
-| `salesPrice` null في GET واحد | صحيح في **كلا** النقطتين |
-| `totalItems` يعد المتغيرات | يعد **المنتجات** |
-
-المسار يبقى **`/v1/public/products`**.
-
 ## قائمة المنتجات
 
 ::api-endpoint{method="GET" path="/v1/public/products" scope="read_products"}

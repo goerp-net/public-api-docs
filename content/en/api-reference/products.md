@@ -19,27 +19,6 @@ Every product has at least one variant in `variants[]` — including single-opti
 **Order lines use variant ids/SKUs, never the product id or product SKU.** Sending the product's own `id` or `sku` to `POST /v1/public/orders` returns **404 `ENTITY_NOT_FOUND`**. The same applies to `/v1/public/stock`.
 ::
 
-## What changed
-
-| Before | After |
-|--------|-------|
-| List row = one variant | List row = one **product** with nested `variants[]` |
-| Row `id` = variant id | Row `id` = **product id** |
-| Row `sku` = variant SKU | Row `sku` = **product SKU** |
-| `GET /products/{id}` took a variant id | Takes a **product id** |
-| Cost price never returned | `costPrice` on product and each variant |
-| Stock not inline | `quantityOnHand`, `reservedQuantity`, `availableQuantity`, `inStock` on product and each variant |
-| No description | `description` on the product |
-| `imageUrl` only | `imageUrl` + `imageUrls[]` on product and each variant |
-| `productName` field | Removed — use product `name` |
-| `unitOfMeasure` on the row | On each **variant** |
-| `salesPrice` null on `GET /{id}` | Correct on **both** endpoints |
-| `search` matched variant name/SKU/barcode | Matches product **name**, **description**, **SKU** |
-| `sku` filter = variant SKU only | Product SKU **or** variant SKU |
-| `totalItems` counted variants | Counts **products** |
-
-This was a breaking change to the response shape. The path stays **`/v1/public/products`** (no `v2` prefix).
-
 ## List products
 
 ::api-endpoint{method="GET" path="/v1/public/products" scope="read_products"}

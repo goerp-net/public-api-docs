@@ -18,12 +18,12 @@ const { locale, t } = useI18n()
 const localePath = useLocalePath()
 
 const features = [
-  { key: 'auth', icon: KeyRound },
-  { key: 'orders', icon: Package },
-  { key: 'catalog', icon: Boxes },
-  { key: 'scopes', icon: Shield },
-  { key: 'errors', icon: AlertTriangle },
-  { key: 'rateLimits', icon: Gauge },
+  { key: 'auth', icon: KeyRound, slug: '/authentication' },
+  { key: 'orders', icon: Package, slug: '/api-reference/orders' },
+  { key: 'catalog', icon: Boxes, slug: '/api-reference/products' },
+  { key: 'scopes', icon: Shield, slug: '/scopes' },
+  { key: 'errors', icon: AlertTriangle, slug: '/guides/errors' },
+  { key: 'rateLimits', icon: Gauge, slug: '/guides/rate-limits' },
 ] as const
 
 const curlExample = `curl ${apiExampleUrl('/v1/public/orders')} \\
@@ -69,10 +69,11 @@ useSiteSeo({
         <p class="mt-3 text-zinc-600 dark:text-zinc-400">{{ t('exploreSubtitle') }}</p>
       </div>
       <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-        <div
+        <NuxtLink
           v-for="feature in features"
           :key="feature.key"
-          class="glass-card p-6 transition hover:border-brand/30"
+          :to="localePath(feature.slug)"
+          class="glass-card block p-6 transition hover:border-brand/30 hover:bg-zinc-50 dark:hover:bg-surface-elevated/50"
         >
           <div class="mb-4 flex h-10 w-10 items-center justify-center rounded-lg bg-brand-soft text-zinc-900 dark:text-zinc-100">
             <component :is="feature.icon" class="h-5 w-5" />
@@ -81,7 +82,7 @@ useSiteSeo({
           <p class="text-sm text-zinc-600 dark:text-zinc-400">
             {{ t(`features.${feature.key}.description`) }}
           </p>
-        </div>
+        </NuxtLink>
       </div>
     </section>
 
